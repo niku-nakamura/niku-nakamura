@@ -39,14 +39,15 @@
     &--title {
       position: absolute;
       bottom: 0;
-      height: 120px;
+      height: 140px;
+      padding: 8px 0;
       width: 100%;
       text-align: center;
       color: $white;
       background-color: rgba($color: $black, $alpha: 0.8);
       h3 {
-        font-size: 1.8rem;
-        line-height: 80px;
+        font-size: 1.4rem;
+        line-height: 2.8rem;
       }
       p {
         font-size: 1.2rem;
