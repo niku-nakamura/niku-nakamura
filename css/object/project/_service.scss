@@ -2,7 +2,7 @@
 
 .p-service {
   height: auto;
-  padding: 0 24px 64px;
+  padding: 0 16px 64px;
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -62,14 +62,14 @@
       // background-color: $white;
       // box-shadow: -8px 8px 6px lighten($black, 60%);
       // width: 100%;
-      margin: 16px;
+      // margin: 16px;
     }
     &-sub {
       // width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 16px;
+      // margin: 16px;
     }
   }
 }
@@ -77,5 +77,20 @@
 @media screen and (max-width: 1024px) {
   .p-service {
     height: auto;
+    &__about {
+      h2 {
+        font-size: 1.6rem;
+      }
+    }
+    &__image {
+      &--title {
+        h3 {
+          font-size: 1.4rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }
